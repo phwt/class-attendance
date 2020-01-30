@@ -1,7 +1,11 @@
 # class-attendance
 Web Programming 2019 Assignment
 
-## Attendance
+## Code Explaination
+
+> Self-explanatory code is good code
+
+### Attendance
 ```python
 def subject(request):
     return HttpResponse('Show today subject')
@@ -15,7 +19,7 @@ def qrcode(request):
     return HttpResponse('QR Code')
 
 ```
-## Dashboard
+### Dashboard
 ```python
 def student_list(request):
     return HttpResponse('student_list')
@@ -41,7 +45,7 @@ def course_edit(request, cid):
     return HttpResponse(f'course_edit: {cid}')
 
 ```
-## Report
+### Report
 ```python
 def dashboard(request):
     return HttpResponse('Dashboard')
